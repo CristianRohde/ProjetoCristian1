@@ -1,0 +1,33 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+
+}
+.contato{
+    width: 100%;
+    max-width: 500px;
+
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+}
+.geral{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    
+}
+textarea{
+    height: 150px;
+}
+.Outro{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    height: 50px;
+}
