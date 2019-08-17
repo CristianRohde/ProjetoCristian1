@@ -1,0 +1,137 @@
+/*MENU*/
+nav{
+    width: 100%;
+    margin: 30px auto;
+    margin-right: 5px;
+    background-color: aquamarine;
+    color: darkgreen;
+    text-align: left;
+    border-block: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase; /* serva para mudar a letra para maiuscula*/
+   /* transition: background-color 1s;/* serve para que demore um tempo a troca de cor*/
+}
+ul{
+    list-style: none; text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 5px 2px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+#buscar{
+    display: right;
+}
+
+nav:hover{/* serve para cambiar de color ao passar o mause*/
+    background-color: #cec9c9;
+    color: red;
+}
+#hamburguer{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    display: none;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#hamburguer{
+      display: none;
+}
+
+
+/* OFERTAS CAROSEL */
+
+#tes1{
+    width: 355px;
+    height: 610px;
+   background-color: aqua;
+   float: left;
+}
+#tes2{
+    width: 800px;
+    height: 610px;
+  
+   float: left;
+}
+#tes3{
+    width: 356px;
+    height: 610px;
+   background-color: red;
+   float: left;
+}
+label[for="hamburguer"]{
+    display: none;
+}    
+
+/* VIAGENS *//*
+.grid-container {
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+       width: 100%;
+    height: auto;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+.card{
+    width: 100%;
+    height: auto;
+  }
+
+}*/
+  /*FORMTACAO RESPONSIVE*/
+@media only screen and (max-width:700px){
+    label[for="hamburguer"]{
+        display: block;
+    } 
+    #hamburguer:checked ~ .form-inline{
+        left: 100%;
+        position: absolute;
+        
+    
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .form-inline{
+        text-align: center;
+        width: 100%;
+    }
+    .form-inline ul li{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #hamburguer {
+       display: none;
+       
+    } 
+    ul{
+        display: none;
+    }
+    .form-inline{
+        display: none;
+      
+    }
+    
+}
+@media only screen and (max-width:782px){
+
+
+}
